@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
-@Controller
+
 public class HelloController {
 
     @GetMapping("hello")
@@ -46,9 +46,6 @@ public class HelloController {
             this.name = name;
         }
 
-
     }
-
-
 
 }
